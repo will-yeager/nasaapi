@@ -4,6 +4,7 @@ Programa para baixar e visualizar um gif da terra em uma data especifica que usa
 Necessário para uso do programa:
 
 KEY da api da Nasa - Pode adquirir no site https://api.nasa.gov/index.html#apply-for-an-api-key
+
 Pasta imgs na mesma pasta que o .py e .ui
 
 DEMONSTRAÇÃO;
