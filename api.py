@@ -30,19 +30,21 @@ def FUNÇAO_DATA_EARTH():
     params = {
         'api_key':api_key
     }
-    
-    response = requests.get(url_epic, params=params).json()
-    try: 
-        response[0]['image']
+    try:
+        response = requests.get(url_epic, params=params).json()
     except:
         nasa.loading.setText('A DATA DIGITADA NÃO É VÁLIDA!')
     else:
-        for c in range(1, len(response)):
-            x = response[c]['image']
-            url_down = f"https://epic.gsfc.nasa.gov/archive/natural/{ano}/{mes}/{dia}/png/{x}.png"
-            urlretrieve(url_down, diretorio + 'imgs' + f"\\earth{c}.png")
-        making_gif()
-
+        try: 
+            response[0]['image']
+        except:
+            nasa.loading.setText('A DATA DIGITADA NÃO É VÁLIDA!')
+        else:
+            for c in range(1, len(response)):
+                x = response[c]['image']
+                url_down = f"https://epic.gsfc.nasa.gov/archive/natural/{ano}/{mes}/{dia}/png/{x}.png"
+                urlretrieve(url_down, diretorio + 'imgs' + f"\\earth{c}.png")
+            making_gif()
 # BOTÃO
 def gerar():
     deletar()
