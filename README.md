@@ -10,3 +10,5 @@ Pasta imgs na mesma pasta que o .py e .ui
 DEMONSTRAÇÃO;
 
 ![alt text](https://i.imgur.com/wjnkWhk.png)
+
+OBS: Projeto de um iniciante!
