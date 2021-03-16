@@ -13,7 +13,7 @@ import glob
 
 # api_key = PARA USAR ESSE PROGRAMA É NECESSARIO GERA UMA API KEY NO SITE DA NASA --> https://api.nasa.gov/index.html#apply-for-an-api-key
 api_key = 'API-KEY' # <-- INSIRA SUA API KEY EM API-KEY
-# DIRETORIO = r'SEU DIRETORIO' por exemplo -- > r'C:\Users\XXXX\Desktop\Nasaapi\imgs'
+# DIRETORIO = r'SEU DIRETORIO' por exemplo -- > r'C:\Users\XXXX\Desktop\nasaapi-main\\'
 diretorio = r"C:\Users\XXX\Desktop\nasaapi-main\\"
 
 app = QtWidgets.QApplication([])
