@@ -5,6 +5,8 @@ Necessário para uso do programa:
 
 KEY da api da Nasa - Pode adquirir no site https://api.nasa.gov/index.html#apply-for-an-api-key
 
+instalar o pyqt5 -> pip install pyqt5
+
 Pasta imgs na mesma pasta que o .py e .ui
 
 DEMONSTRAÇÃO;
